@@ -78,7 +78,7 @@ function HistoryPage() {
                 justifyItems="center"
                 justifyContent="center"
                 spacing={2}
-                sx={{ minHeight: '100vh', textAlign: "center" }}
+                sx={{ minHeight: '400px', textAlign: "center" }}
             >
                 <Box
                     sx={{ width: { xs: '100%', md: '1000px' }, backgroundColor: '#fff' }}

@@ -65,7 +65,7 @@ function SearchPage() {
                 justifyItems="center"
                 justifyContent="center"
                 spacing={2}
-                style={{ minHeight: '100vh', textAlign: "center" }}
+                style={{ minHeight: '400px', textAlign: "center" }}
             >
                 <Grid size={12}>
                     <TextField

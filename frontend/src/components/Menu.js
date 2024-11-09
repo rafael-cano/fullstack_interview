@@ -15,8 +15,14 @@ function Menu() {
     };
 
     return (
-        
-            <Box marginTop={5} marginLeft="-150px" width="300px" left="50%" position="fixed" textAlign="center">
+        <Grid container
+            direction="row"
+            alignContent="center"
+            justifyItems="center"
+            justifyContent="center"
+            style={{ textAlign: "center" }}
+        >
+            <Box marginTop={5} height={100} textAlign="center">
                 <ToggleButtonGroup
                     color="primary"
                     value={alignment}
@@ -28,7 +34,8 @@ function Menu() {
                     <ToggleButton value="/history">Histórico</ToggleButton>
                 </ToggleButtonGroup>
             </Box>
-        
+        </Grid>
+
     )
 }
 export default Menu;
