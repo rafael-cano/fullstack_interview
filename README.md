@@ -4,7 +4,7 @@ Essa aplicação segue o solicitado em documento enviado para avaliação técni
 
 ## Obsercação Importante
 
-Campo Ano do Filme proposto foi trocado por Duracao do Filme pois o campo Ano não existe mais nos resultados da API https://the-one-api.dev;
+Campo **Ano do Filme** proposto foi trocado por **Duração do Filme** pois o campo Ano não existe mais nos resultados da API https://the-one-api.dev;
 Tal decisão foi tomada para preservar a funcionalidade de trabalhar com um campo de resposta da API, tal campo pode ser alterado posteriormente no código sob demanda.
 
 
