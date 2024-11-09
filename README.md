@@ -1,3 +1,13 @@
+# Entrevista com projeto fullstack usando API https://the-one-api.dev/
+
+Essa aplicação segue o solicitado em documento enviado para avaliação técnica.
+
+## Obsercação Importante
+
+Campo Ano do Filme proposto foi trocado por Duracao do Filme pois o campo Ano não existe mais nos resultados da API https://the-one-api.dev;
+Tal decisão foi tomada para preservar a funcionalidade de trabalhar com um campo de resposta da API, tal campo pode ser alterado posteriormente no código sob demanda.
+
+
 # Instalação com Docker Compose
 
 Este repositório contém os artefatos necessários para executar a aplicação utilizando o Docker Compose. Siga os passos abaixo para configurar o ambiente.
@@ -27,14 +37,15 @@ Em um diretório de sua escolha, clone o repositório com o comando abaixo e ace
 ```bash
 git clone https://github.com/rafael-cano/fullstack_interview.git
 cd fullstack_interview
+```
 
 ### 2. Inicie os serviços com Docker Compose
 
 Utilize o Docker Compose para carregar e disponibilizar todos os serviços necessários para o funcionamento da aplicação:
 
-bash
-Copiar código
+```bash
 docker-compose up
+```
 Esse comando irá construir as imagens Docker, baixar as dependências e iniciar os containers conforme a configuração especificada no arquivo docker-compose.yml.
 
 ### 3. Acesse a aplicação
@@ -42,14 +53,18 @@ Esse comando irá construir as imagens Docker, baixar as dependências e iniciar
 Após os containers estarem em execução, acesse a aplicação no navegador utilizando a URL:
 
 http://localhost:3000
-Finalizando a Execução
+
+### Finalizando a Execução
 Para parar os containers, utilize o comando:
 
-bash
-Copiar código
+```bash
 docker-compose down
+```
 Este comando encerra todos os containers e libera os recursos do sistema.
 
-Recursos Adicionais
-Documentação do Docker Compose(https://docs.docker.com/compose/)
-Documentação do Docker(https://docs.docker.com/)
+## Recursos Adicionais
+
+[Documentação do Docker Compose](https://docs.docker.com/compose/)
+
+[Documentação do Docker](https://docs.docker.com/)
+
