@@ -27,7 +27,9 @@ Em um diretório de sua escolha, clone o repositório com o comando abaixo e ace
 ```bash
 git clone https://github.com/rafael-cano/fullstack_interview.git
 cd fullstack_interview
-2. Inicie os serviços com Docker Compose
+
+### 2. Inicie os serviços com Docker Compose
+
 Utilize o Docker Compose para carregar e disponibilizar todos os serviços necessários para o funcionamento da aplicação:
 
 bash
@@ -35,7 +37,8 @@ Copiar código
 docker-compose up
 Esse comando irá construir as imagens Docker, baixar as dependências e iniciar os containers conforme a configuração especificada no arquivo docker-compose.yml.
 
-3. Acesse a aplicação
+### 3. Acesse a aplicação
+
 Após os containers estarem em execução, acesse a aplicação no navegador utilizando a URL:
 
 http://localhost:3000
