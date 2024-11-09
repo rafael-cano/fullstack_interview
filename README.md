@@ -24,6 +24,7 @@ Antes de iniciar, verifique se os seguintes itens estão instalados:
 Caso não tenha essas ferramentas instaladas, consulte as instruções de instalação nos links abaixo:
 - [Instalação do Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Instalação do Docker](https://docs.docker.com/get-docker/)
+    - Deve-se colocar o grupo docker no seu usuário (linux) e reinicar o computador
 - [Instalação do Docker Compose](https://docs.docker.com/compose/install/)
 
 ---
